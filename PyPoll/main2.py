@@ -1,15 +1,10 @@
-
-#---Election Results---#
-
 #import dep's
 import csv
 import os
 
 #define file(s)
 election_data = os.path.join("Resources","election_data.csv")
-#---open resources/election_data.csv
 election_output = os.path.join("Resources","Election_results.txt")
-#---open resources/election_results.txt
 
 #open csv and pass over header row
 with open(election_data,newline='') as csvfile:
